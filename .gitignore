@@ -1,0 +1,24 @@
+# Lockfiles
+package-lock.json
+yarn.lock
+
+# Temporary Stuff
+tmp/
+*.tmp
+*.bak
+
+# Logs
+*.stackdump
+*.log
+
+# Build
+node_modules/
+build.json
+*.build.css
+
+# Windows Data
+Thumbs.db
+Desktop.ini
+
+# Mac Data
+.DS_Store
