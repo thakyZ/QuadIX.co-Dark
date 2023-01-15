@@ -20,385 +20,425 @@
     box-shadow: none !important;
     font-family: "/*[[font-choice]]*/", "Varela", sans-serif !important;
   }
+
   body {
     background-color: #191919 !important;
   }
-  body, td, input, select, h1, h2, h3 {
+
+  body,
+  td,
+  input,
+  select,
+  h1,
+  h2,
+  h3 {
     color: #eee !important;
   }
+
   /* === custom color === */
   a {
-    color: /*[[base-color]]*/ !important;
+    color:
+      /*[[base-color]]*/
+      !important;
   }
+
   a:hover {
     color: #fff !important;
   }
-  #menu .current_page_item a, #banner .button, .button {
-    background-color: /*[[base-color]]*/ !important;
+
+  #menu .current_page_item a,
+  #banner .button,
+  .button {
+    background-color:
+      /*[[base-color]]*/
+      !important;
     color: #fff !important;
   }
+
   #featured {
     background-color: #080808 !important;
   }
-  #menu .current_page_item a:hover, #banner .button:hover, .button:hover {
+
+  #menu .current_page_item a:hover,
+  #banner .button:hover,
+  .button:hover {
     background-color: #fff !important;
     color: #000 !important;
   }
+
   /* === text selection === */
   ::selection {
-    background: /*[[base-color]]*/ !important;
+    background:
+      /*[[base-color]]*/
+      !important;
     color: #fff !important;
   }
+
   ::-moz-selection {
-    background: /*[[base-color]]*/ !important;
+    background:
+      /*[[base-color]]*/
+      !important;
     color: #fff !important;
   }
+
   /* === input focus hightlight === */
-  input:focus, textarea:focus {
-    border-color: /*[[base-color]]*/ !important;
+  input:focus,
+  textarea:focus {
+    border-color:
+      /*[[base-color]]*/
+      !important;
     outline-color: transparent !important;
   }
+
   /* === input === */
   input {
     background: #222 !important;
     color: #ddd !important;
   }
+
   /* === images fix === */
   .server_container_right li {
     background-image: url(https://raw.githubusercontent.com/thakyZ/QuadIX.co-Dark/master/images/bullet.png) !important;
   }
 
-input[disabled] {
-  border-color: #101010;
-  background-color: #2a2a2a;
-  color: #eee;
-}
-
-label {
-  color: #eee;
-}
-
-textarea {
-  color: #eee;
-  background-color: #2a2a2a;
-  border-color: #101010;
-}
-
-table {
-  background-color: #202020;
-}
-
-table.items {
-  background-color: #202020;
-  border-color: #101010;
-}
-
-table.items td {
-  background-color: #202020;
-  border-color: #101010;
-}
-
-table.items tr.title td {
-  background-color: #202020;
-  border-color: #101010;
-}
-
-select {
-  background-color: #2a2a2a;
-  color: #eee;
-  border-color: #101010;
-}
-
-.title .byline {
-  color: #eee;
-}
-
-.contact_container_left input {
-  border-color: #101010;
-}
-
-.contact_container_right textarea {
-  border-color: #101010;
-}
-
-#wrapper {
-  background-color: #3a3a3a;
-}
-
-.wrapper {
-  background-color: #202020;
-  border-color: #101010;
-}
-
-.addressbox {
-  background-color: #202020;
-  color: #eee;
-}
-
-.productitle {
-  color: #eee;
-}
-
-.title_conf .byline {
-  color: #eee;
-}
-
-.byline {
-  color: #eee;
-}
-
-#whmcsorderfrm h1 {
-  color: #eee;
-}
-
-#order-slider select {
-  border-color: #101010;
-}
-
-#order-slider .billingcycle {
-  border-color: #101010;
-}
-
-#order-slider .configoptions {
-  border-color: #101010;
-}
-
-#order-slider .configtable td.fieldarea {
-  background-color: #202020;
-  border-color: #101010;
-}
-
-#order-slider .customfields {
-  border-color: #101010;
-}
-
-#order-slider .ordersummary {
-  border-color: #101010;
-  background-color: #202020;
-}
-
-#order-slider .serverconfig {
-  border-color: #101010;
-}
-
-#order-slider .summaryproduct {
-  border-color: #101010;
-}
-
-#whmcsorderfrm table {
-  border: none;
-}
-
-#whmcsorderfrm table tr {
-  border-color: #101010;
-}
-
-.btn:hover {
-  background-color: #202020;
-  background-color: #1a1a1a;
-}
-
-.controls a {
-  color: #00c2ff;
-}
-
-.controls a:hover
-{
-  color: #00daff;
-}
-
-.btn {
-  text-shadow: none;
-  color: #eee;
-  background-image: -ms-linear-gradient(top, #202020, #1a1a1a);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#202020), to(#1a1a1a));
-  background-image: -webkit-linear-gradient(top, #202020, #1a1a1a);
-  background-image: -o-linear-gradient(top, #202020, #1a1a1a);
-  background-image: linear-gradient(top, #202020, #1a1a1a);
-  background-image: -moz-linear-gradient(top, #202020, #1a1a1a);
-  border: 1px solid #101010;
-  border-color: #101010 #101010 #101010;
-  border-bottom-color: #101010;
-}
-
-.pagination ul {
-  background-color: #202020;
-}
-
-.pagination a {
-  border-color: #101010;
-}
-
-.btn.active, .btn:active {
-  background-color: #202020;
-}
-
-.btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
-  background-color: #202020;
-  background-color: #1a1a1a;
-  color: #fff;
-}
-
-.btn.disabled, .btn[disabled] {
-  background-color: #191919;
-}
-
-.btn-group.open .btn.dropdown-toggle {
-  background-color: #2a2a2a;
-}
-
-.dropdown-menu {
-  background-color: #2a2a2a;
-  color: #eee;
-}
-
-.dropdown-menu a {
-  color: #eee;
-}
-
-.dropdown-menu .divider {
-  background-color: #101010;
-  border: none;
-}
-
-.cartbutton {
-  background-color: #202020;
-}
-
-.alert {
-  background-color: #202020;
-  color: #eee;
-  text-shadow: inherit;
-  border-color: #101010;
-}
-
-.label.active {
-  color: #eee;
-  text-shadow: none;
-}
-
-.label.cancelled {
-  color: #202020;
-  text-shadow: none;
-}
-
-.whmcscontainer {
-  background-color: #3a3a3a;
-}
-
-.whmcscontainer h1 {
-  color: #eee;
-}
-
-.whmcscontainer h3 {
-  color: #eee;
-}
-
-.whmcscontainer table .headerSortasc {
-  text-shadow: none;
-}
-
-.whmcscontainer .invoicetotal {
-  color: #eee;
-}
-
-.whmcscontainer .page-header {
-  border-color: #101010;
-}
-
-.whmcscontainer .searchbox {
-  background-color: #202020;
-}
-
-.whmcscontainer .ticketmsgs .adminmsg {
-  background-color: #202020;
-  border-color: #101010;
-  color: #eee;
-}
-
-.whmcscontainer .ticketmsgs .adminheader {
-  background-color: #252525;
-  color: #eee;
-  border: 1px solid #101010;
-}
-
-.whmcscontainer .ticketmsgs .clientmsg {
-  background-color: #292929;
-  border-color: #101010;
-  color: #eee;
-}
-
-.whmcscontainer .ticketmsgs .clientmsg:last-child {;
-  border-color: #101010;
-}
-
-.whmcscontainer .ticketmsgs .clientheader {
-  background-color: #2f2f2f;
-  color: #eee;
-  border: 1px solid #101010;
-}
-
-.whmcscontainer .ticketdetailscontainer {
-  background-color: #2a2a2a;
-}
-
-.whmcscontainer .ticketdetailscontainer .detail {
-  background-color: #202020;
-}
-
-.table td {
-  border-color: #101010;
-}
-
-.table tbody tr:hover td {
-  background-color: #2a2a2a;
-}
-
-.table-framed {
+  input[disabled] {
     border-color: #101010;
-}
+    background-color: #2a2a2a;
+    color: #eee;
+  }
 
-.table-striped tbody tr:nth-child(2n+1) td, .table-striped tbody tr:nth-child(2n+1) th {
-  background-color: #202020;
-  border-top-color:  #101010;
-}
+  label {
+    color: #eee;
+  }
 
-.whmcscontainer table .headerSortdesc {
-  text-shadow: inherit;
-}
+  textarea {
+    color: #eee;
+    background-color: #2a2a2a;
+    border-color: #101010;
+  }
 
-.whmcscontainer .ticketreplybox {
-  background-color: #202020;
-  border-color: #101010;
-}
+  table {
+    background-color: #202020;
+  }
 
-.nav-tabs {
-  border-color: #101010;
-}
+  table.items {
+    background-color: #202020;
+    border-color: #101010;
+  }
 
-.form-actions {
-  background-color: #202020;
-  border-color: #101010;
-}
+  table.items td {
+    background-color: #202020;
+    border-color: #101010;
+  }
 
-.nav-tabs > .active > a {
-  border-color: #101010;
-  background-color: #202020;
-  color: #eee;
-}
+  table.items tr.title td {
+    background-color: #202020;
+    border-color: #101010;
+  }
 
-.nav-tabs > .active > a:hover {
-  background-color: #2a2a2a;
-  border-color: #101010;
-  color: #eee;
-}
+  select {
+    background-color: #2a2a2a;
+    color: #eee;
+    border-color: #101010;
+  }
 
-.nav > li > a:hover {
-  background-color: #2a2a2a;
-  border-color: #101010;
-}
+  .title .byline {
+    color: #eee;
+  }
 
-.ticketfeedbackstaffcont {
-  background-color: #101010 !important;
-}
+  .contact_container_left input {
+    border-color: #101010;
+  }
+
+  .contact_container_right textarea {
+    border-color: #101010;
+  }
+
+  #wrapper {
+    background-color: #3a3a3a;
+  }
+
+  .wrapper {
+    background-color: #202020;
+    border-color: #101010;
+  }
+
+  .addressbox {
+    background-color: #202020;
+    color: #eee;
+  }
+
+  .productitle {
+    color: #eee;
+  }
+
+  .title_conf .byline {
+    color: #eee;
+  }
+
+  .byline {
+    color: #eee;
+  }
+
+  #whmcsorderfrm h1 {
+    color: #eee;
+  }
+
+  #order-slider select {
+    border-color: #101010;
+  }
+
+  #order-slider .billingcycle {
+    border-color: #101010;
+  }
+
+  #order-slider .configoptions {
+    border-color: #101010;
+  }
+
+  #order-slider .configtable td.fieldarea {
+    background-color: #202020;
+    border-color: #101010;
+  }
+
+  #order-slider .customfields {
+    border-color: #101010;
+  }
+
+  #order-slider .ordersummary {
+    border-color: #101010;
+    background-color: #202020;
+  }
+
+  #order-slider .serverconfig {
+    border-color: #101010;
+  }
+
+  #order-slider .summaryproduct {
+    border-color: #101010;
+  }
+
+  #whmcsorderfrm table {
+    border: none;
+  }
+
+  #whmcsorderfrm table tr {
+    border-color: #101010;
+  }
+
+  .btn:hover {
+    background-color: #202020;
+    background-color: #1a1a1a;
+  }
+
+  .controls a {
+    color: #00c2ff;
+  }
+
+  .controls a:hover {
+    color: #00daff;
+  }
+
+  .btn {
+    text-shadow: none;
+    color: #eee;
+    background-image: -ms-linear-gradient(top, #202020, #1a1a1a);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#202020), to(#1a1a1a));
+    background-image: -webkit-linear-gradient(top, #202020, #1a1a1a);
+    background-image: -o-linear-gradient(top, #202020, #1a1a1a);
+    background-image: linear-gradient(top, #202020, #1a1a1a);
+    background-image: -moz-linear-gradient(top, #202020, #1a1a1a);
+    border: 1px solid #101010;
+    border-color: #101010 #101010 #101010;
+    border-bottom-color: #101010;
+  }
+
+  .pagination ul {
+    background-color: #202020;
+  }
+
+  .pagination a {
+    border-color: #101010;
+  }
+
+  .btn.active,
+  .btn:active {
+    background-color: #202020;
+  }
+
+  .btn:hover,
+  .btn:active,
+  .btn.active,
+  .btn.disabled,
+  .btn[disabled] {
+    background-color: #202020;
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+
+  .btn.disabled,
+  .btn[disabled] {
+    background-color: #191919;
+  }
+
+  .btn-group.open .btn.dropdown-toggle {
+    background-color: #2a2a2a;
+  }
+
+  .dropdown-menu {
+    background-color: #2a2a2a;
+    color: #eee;
+  }
+
+  .dropdown-menu a {
+    color: #eee;
+  }
+
+  .dropdown-menu .divider {
+    background-color: #101010;
+    border: none;
+  }
+
+  .cartbutton {
+    background-color: #202020;
+  }
+
+  .alert {
+    background-color: #202020;
+    color: #eee;
+    text-shadow: inherit;
+    border-color: #101010;
+  }
+
+  .label.active {
+    color: #eee;
+    text-shadow: none;
+  }
+
+  .label.cancelled {
+    color: #202020;
+    text-shadow: none;
+  }
+
+  .whmcscontainer {
+    background-color: #3a3a3a;
+  }
+
+  .whmcscontainer h1 {
+    color: #eee;
+  }
+
+  .whmcscontainer h3 {
+    color: #eee;
+  }
+
+  .whmcscontainer table .headerSortasc {
+    text-shadow: none;
+  }
+
+  .whmcscontainer .invoicetotal {
+    color: #eee;
+  }
+
+  .whmcscontainer .page-header {
+    border-color: #101010;
+  }
+
+  .whmcscontainer .searchbox {
+    background-color: #202020;
+  }
+
+  .whmcscontainer .ticketmsgs .adminmsg {
+    background-color: #202020;
+    border-color: #101010;
+    color: #eee;
+  }
+
+  .whmcscontainer .ticketmsgs .adminheader {
+    background-color: #252525;
+    color: #eee;
+    border: 1px solid #101010;
+  }
+
+  .whmcscontainer .ticketmsgs .clientmsg {
+    background-color: #292929;
+    border-color: #101010;
+    color: #eee;
+  }
+
+  .whmcscontainer .ticketmsgs .clientmsg:last-child {
+    ;
+    border-color: #101010;
+  }
+
+  .whmcscontainer .ticketmsgs .clientheader {
+    background-color: #2f2f2f;
+    color: #eee;
+    border: 1px solid #101010;
+  }
+
+  .whmcscontainer .ticketdetailscontainer {
+    background-color: #2a2a2a;
+  }
+
+  .whmcscontainer .ticketdetailscontainer .detail {
+    background-color: #202020;
+  }
+
+  .table td {
+    border-color: #101010;
+  }
+
+  .table tbody tr:hover td {
+    background-color: #2a2a2a;
+  }
+
+  .table-framed {
+    border-color: #101010;
+  }
+
+  .table-striped tbody tr:nth-child(2n+1) td,
+  .table-striped tbody tr:nth-child(2n+1) th {
+    background-color: #202020;
+    border-top-color: #101010;
+  }
+
+  .whmcscontainer table .headerSortdesc {
+    text-shadow: inherit;
+  }
+
+  .whmcscontainer .ticketreplybox {
+    background-color: #202020;
+    border-color: #101010;
+  }
+
+  .nav-tabs {
+    border-color: #101010;
+  }
+
+  .form-actions {
+    background-color: #202020;
+    border-color: #101010;
+  }
+
+  .nav-tabs>.active>a {
+    border-color: #101010;
+    background-color: #202020;
+    color: #eee;
+  }
+
+  .nav-tabs>.active>a:hover {
+    background-color: #2a2a2a;
+    border-color: #101010;
+    color: #eee;
+  }
+
+  .nav>li>a:hover {
+    background-color: #2a2a2a;
+    border-color: #101010;
+  }
+
+  .ticketfeedbackstaffcont {
+    background-color: #101010 !important;
+  }
 }
